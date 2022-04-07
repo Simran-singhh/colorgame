@@ -1,0 +1,72 @@
+body{
+	background-color:#232323;
+	margin: 0;
+	font-family: "Montserrat","Avenir";
+}
+
+.square{
+	width:30%;
+	background: purple;
+	padding-bottom: 30%;/*for height*/
+	float:left;
+	margin:1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;/*to take background 0.6sec to change*/
+}
+
+#container{
+	margin: 20px auto;/*0 from top and bottom and same from left and right(basically to bring everything t centre)*/
+	max-width: 600px;
+}
+h1{
+	color:white;
+	font-weight: normal;
+	text-align: center;
+	background: steelblue;
+	margin:0;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#colordisplay{
+	font-size: 200%;
+}
+ #message{
+	color: red;
+	font-size: 22px;
+	display:inline-block;
+	width:20%;
+	font-weight: bold;
+}
+
+#striped{
+	background: white;
+	height: 30px;
+    text-align: center;
+	}
+
+	.selected{
+		color:white;
+		background: steelblue;
+	}
+
+
+	button{
+		border: none;
+		background: none;
+		text-transform: uppercase;
+		height:100%;
+		font-weight: 700;
+		color:steelblue;
+		letter-spacing: 1px;
+		font-size:inherit;
+		transition:all 0.3s;/*(means sare properties button ki change hone mai 0.3 seconds lenge)*/
+	    outline: none;
+	}
+
+	button:hover{
+		color:white;
+		background: steelblue;
+
+	}
